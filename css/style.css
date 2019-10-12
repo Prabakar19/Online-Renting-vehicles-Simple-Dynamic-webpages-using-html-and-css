@@ -1,0 +1,140 @@
+@import "grid.css";
+@import "superfish.css";
+
+body {
+	position: relative;
+    background-color: #4a4a4a;
+    color: #878787;
+    font: 14px/20px 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/****Heads****/
+h3 {
+    font-size: 36px;
+    color: #313030;
+    }
+h4 {
+    font-size: 22px;
+    color: gray;
+    }
+
+/****classes****/
+.clear {
+	float: none !important;
+	clear: both;
+}
+
+/*header*/
+.main {
+    background-color: #fff;
+}
+
+header h1 {
+	position: relative;
+	text-align: center;
+    padding-top: 55px;
+}
+
+/**Content**/
+.content {
+    padding-bottom: 113px;
+}
+
+.type {
+    border: 1px solid #ebeaea;
+    position: relative;
+    margin-top: 84px;
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.type_caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 312px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/capt_bg.png) 0 0 repeat;
+    color: #fff;
+    font-size: bold;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 7px 30px 8px;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+.type:hover .type_caption {
+    width: 100%;
+}
+
+.type+.type {
+    margin-top: 11px;
+}
+
+.gallery {
+    overflow: hidden;
+    padding-top: 27px;
+}
+
+a.gal {
+    background: url(../images/magnifier.png) center center no-repeat #fdc903;
+    margin-right: 1px;
+    margin-bottom: 27px;
+    display: block;
+    border: 1px solid #ebeaea;
+    border-right-width: 2px;
+}
+
+a.gal img {
+    width: 100%;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    box-shadow: 0 0 0 #fff;
+}
+
+a.gal:hover img {
+    opacity: 0.2;
+}
+
+/**Map**/
+.color1 {
+    color: #fdc903;
+}
+
+.color2 {
+    color: #4a4a4a;
+}
+
+/**Footer**/
+.st1 {
+    padding-top: 80px;
+    color: #e2e2e2;
+    margin-bottom: 8px;
+}
+
+.brand {
+    position: relative;
+    top: -7px;
+    font: 30px/18px 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.f_phone {
+    padding-top: 72px;
+    font-size: 40px;
+    line-height: 36px;
+    float: right;
+    color: #e2e2e2;
+}

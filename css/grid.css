@@ -1,0 +1,32 @@
+body {
+  min-width: 1200px;
+}
+
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+.grid_4,.grid_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.container_12 .grid_4 {
+	width:370px;
+}
+.container_12 .grid_6 {
+	width:570px;
+}
+.container_12 .grid_12 {
+	width:1170px;
+}
+
+.container_12 .prefix_1 {
+	padding-left:100px;
+}
+
