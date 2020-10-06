@@ -14,3 +14,13 @@ ONLINE RENTING VEHICLES
      - Standard
  
  3. "index.html" is main file of this project.
+
+
+![](images/rent_home.png)
+
+
+
+# 
+
+
+![](images/rent_Cars.png)
